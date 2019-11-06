@@ -1,22 +1,49 @@
 body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  text-align: center;
-  background-color: #cccccc;
 }
 p {
-  font-size: 20px;
   text-shadow: #fff 1px 1px;
 }
 strong em {
   color: #b30707;
 }
+h1,
 h2 {
+  text-align: center;
   text-shadow: #fff 1px 1px;
 }
 #banner {
   width: 100%;
 }
+#missao {
+  text-align: center;
+  font-size: 20px !important;
+}
 h1 {
   color: #fff;
-  text-shadow: black 1px 1px;
+  text-shadow: black 2px 2px;
+}
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.beneficio-img {
+  width: 50%;
+  height: 50%;
+}
+.capa {
+  background-color: #cccccc;
+  border: solid #000000 1px;
+  box-shadow: #000000 1px 1px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+.meio {
+  background-color: #fff;
+  padding: 20px;
+}
+.itens {
+  font-style: italic;
 }
